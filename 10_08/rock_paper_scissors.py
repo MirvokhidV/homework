@@ -30,9 +30,9 @@ def game():
             print(f"It's a tie in {i+1}'s turn!")
             score['user'] += 1
             score['pc'] += 1
-        elif (user_choice == "rock" and computer_choice == "scissors"
-              or user_choice == "paper" and computer_choice == "rock"
-              or user_choice == "scissors" and computer_choice == "paper"):
+        elif ((user_choice == "rock" and computer_choice == "scissors")
+              or (user_choice == "paper" and computer_choice == "rock")
+              or (user_choice == "scissors" and computer_choice == "paper")):
             print(f"You win in {i+1}'s turn!")
             score['user'] += 1
         else:
