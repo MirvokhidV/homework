@@ -51,4 +51,5 @@ def game():
     input()
 
 
-game()
+if __name__ == '__main__':
+    game()
