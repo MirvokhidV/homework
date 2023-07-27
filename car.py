@@ -76,7 +76,7 @@ def change_car():
             elif line.startswith('Transmission'):
                 car['transmission'] = line.split(': ')[1].strip()
 
-    print('Enter new values for the car (leave blank to keep current value):')
+    print('Enter new values for the car:')
     brand = input('Brand: ')
     if brand:
         car['brand'] = brand
